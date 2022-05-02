@@ -4,6 +4,7 @@ Server and client to game worms (snake multiplayer).
 To run server: ./screen-worms-server [-p n] [-s n] [-t n] [-v n] [-w n] [-h n]
 
 p port (2021)
+
 s seed (time(NULL))
 t turning speed (6)
 v game speed (50)
