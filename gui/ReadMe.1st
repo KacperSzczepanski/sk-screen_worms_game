@@ -1,0 +1,24 @@
+Część graficzna klienta Netacki
+===============================
+
+Wersja beta: lista kolorów za krótka.
+
+Zrealizowane w Gtk i generalnie zgodne z opisem komunikacji w zadaniu.
+
+Kompilacja:
+
+make
+
+Jeśli chcemy mieć wydruki śledzące, to trzeba dodać -DDEBUG.  
+
+Wersje:
+
+gui2  Gtk-2 grafika W Cairo
+
+gui2a  odpowiednik gui2, ale używający IO Channels (nie działa
+  dobrze na MSW) -- jakiś student narzekał, że mu nie czyści okna, stąd
+  ta wersja, bo nie używa handlera dla idle.
+
+gui3  Gtk-3 grafika W Cairo
+
+
